@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quantum Platform</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            padding: 50px;
+        }
+        .symbol { font-size: 80px; }
+        button {
+            background: rgba(255,255,255,0.3);
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            margin: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quantum Sovereignty Network</h1>
+    <div class="symbol">🔱</div>
+    <div id="status">Initializing...</div>
+    <button onclick="checkStatus()">Check Status</button>
+    <button onclick="viewNetwork()">View Network</button>
+    <div id="info"></div>
+    
+    <script>
+        async function checkStatus() {
+            const response = await fetch('/api/status');
+            const data = await response.json();
+            document.getElementById('status').innerHTML = 
+                'Status: ' + data.status + '<br>' +
+                'Platform: ' + data.platform + '<br>' +
+                'Message: ' + data.message;
+        }
+        
+        async function viewNetwork() {
+            const response = await fetch('/api/network');
+            const data = await response.json();
+            document.getElementById('info').innerHTML = 
+                'Nodes: ' + data.nodes + '<br>' +
+                'Active: ' + data.active + '<br>' +
+                'Score: ' + data.sovereignty_score + '%';
+        }
+        
+        window.onload = checkStatus;
+    </script>
+</body>
+</html>
