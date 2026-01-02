@@ -1,0 +1,80 @@
+{
+  "total_reclamation": 860015072000.0,
+  "entity_analyses": {
+    "bezos": {
+      "entity": "Jeff Bezos / Amazon",
+      "net_worth": 170000000000,
+      "analysis_timestamp": "2025-11-27T18:00:46.366208",
+      "accountability_metrics": {
+        "wage_theft_debt": 285000000000,
+        "ecological_debt": 510000000.0,
+        "tax_evasion_debt": 4877336000.0,
+        "corruption_cost": 1870000000,
+        "hoarded_surplus": 169993912000,
+        "community_investment": 10000000000,
+        "total_debt": 292257336000.0,
+        "net_extraction": 282257336000.0,
+        "exploitation_ratio": 54252.903225806454,
+        "reclamation_amount": 452251248000.0
+      },
+      "assessment": "EXTREME EXTRACTION - Exploitation ratio: 54252.9:1, Reclamation: $452,251,248,000",
+      "recommendations": [
+        "Implement living wage for all employees",
+        "Fund ecological restoration projects",
+        "Pay fair share of taxes",
+        "Cap executive compensation to 50x worker median",
+        "Return surplus wealth to community benefit"
+      ]
+    },
+    "musk": {
+      "entity": "Elon Musk / Tesla-SpaceX",
+      "net_worth": 240000000000,
+      "analysis_timestamp": "2025-11-27T18:00:46.366241",
+      "accountability_metrics": {
+        "wage_theft_debt": 4500000000,
+        "ecological_debt": 720000000.0,
+        "tax_evasion_debt": 75199999999.99998,
+        "corruption_cost": 500000000,
+        "hoarded_surplus": 239993912000,
+        "community_investment": 100000000,
+        "total_debt": 80919999999.99998,
+        "net_extraction": 80819999999.99998,
+        "exploitation_ratio": 500000.0,
+        "reclamation_amount": 320813912000.0
+      },
+      "assessment": "EXTREME EXTRACTION - Exploitation ratio: 500000.0:1, Reclamation: $320,813,912,000",
+      "recommendations": [
+        "Implement living wage for all employees",
+        "Fund ecological restoration projects",
+        "Pay fair share of taxes",
+        "Cap executive compensation to 50x worker median",
+        "Return surplus wealth to community benefit"
+      ]
+    },
+    "gates": {
+      "entity": "Bill Gates / Microsoft",
+      "net_worth": 128000000000,
+      "analysis_timestamp": "2025-11-27T18:00:46.366258",
+      "accountability_metrics": {
+        "wage_theft_debt": 0,
+        "ecological_debt": 256000000.0,
+        "tax_evasion_debt": 8500000000.0,
+        "corruption_cost": 200000000,
+        "hoarded_surplus": 127993912000,
+        "community_investment": 50000000000,
+        "total_debt": 8956000000.0,
+        "net_extraction": -41044000000.0,
+        "exploitation_ratio": 58823.529411764706,
+        "reclamation_amount": 86949912000.0
+      },
+      "assessment": "EXTREME EXTRACTION - Exploitation ratio: 58823.5:1, Reclamation: $86,949,912,000",
+      "recommendations": [
+        "Fund ecological restoration projects",
+        "Pay fair share of taxes",
+        "Cap executive compensation to 50x worker median",
+        "Return surplus wealth to community benefit"
+      ]
+    }
+  },
+  "timestamp": "2025-11-27T18:00:46.366291"
+}
